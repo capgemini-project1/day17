@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Daydemo4jpa-lib/src/main/resources/MITA-INF&apos; to &apos;META-INF&apos;" description="Rename resource &apos;MITA-INF&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/MITA-INF" name="META-INF" stamp="1619779273489" updateReferences="true"/>
+</session>

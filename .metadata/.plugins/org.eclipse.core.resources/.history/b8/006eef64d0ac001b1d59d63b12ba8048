@@ -1,0 +1,8 @@
+package demoOfSingtonpattern;
+
+public class DBUtil {
+	
+public static DBUtil method1() {
+	return null;
+}	
+}

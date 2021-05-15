@@ -1,0 +1,10 @@
+package Day11;
+
+public class MyStringUtils {
+
+	public String greet(String name) {
+		
+		return "Good Morning" +name+
+	}
+
+}

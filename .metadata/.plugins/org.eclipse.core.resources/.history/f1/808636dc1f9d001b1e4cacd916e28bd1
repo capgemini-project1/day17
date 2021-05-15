@@ -1,0 +1,30 @@
+package introday4;
+import java.util.Scanner;
+
+public class Stringformatdemo2 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String firstNameKey="First Name";
+		System.out.println("enter the First Name");
+		 String firstNameValue=scanner.nextLine();
+		 String lastNameKey = "Last Name";
+		 System.out.println("enter the Last Name");
+		 String lastNameValue=scanner.nextLine();
+		 String CandidateId = "candidate Id";
+		String formattedFirstNameKey = String.format("|%25s|",firstNameKey);
+		String formattedFirstNameVal = String.format("%-25.25s|", firstNameValue);
+		 
+		String formattedLastNameKey = String.format("|%25s|",lastNameKey);
+		String formattedlastNameVal = String.format("%-25.25s|", lastNameValue);
+		 String dash = "--------------------|-----------------------";
+		 System.out.println(String.format("%5s",dash));
+		 System.out.println(formattedFirstNameKey + formattedFirstNameVal);
+		 System.out.println(String.format("%5s",dash));
+		 System.out.println(formattedLastNameKey + formattedlastNameVal);
+		 System.out.println(String.format("%5s",dash));
+		
+		
+	}
+
+}

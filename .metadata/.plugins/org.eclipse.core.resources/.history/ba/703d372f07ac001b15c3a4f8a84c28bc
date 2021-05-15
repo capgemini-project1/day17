@@ -1,0 +1,32 @@
+package day16jpa1;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class Main1 {
+	public static void main(String[] args) {
+		EntityManagerFactory factory =  Persistence.createEntityManagerFactory("myjpa");
+		EntityManager manager =  factory.createEntityManager();
+
+	Person person = new Person();
+	person.setLocality("Bhimavaram");
+	person.setCity("Vijayawada");
+	person.setState("AndhraPradesh");
+	
+			Employee emp = new Employee();
+			emp.setName("chinu");
+			emp.setEmail("chinu@gmail.com");
+			System.out.println(emp);
+			emp.setPerson(person);
+			manager.getTransaction().begin();
+			manager.persist(emp);  			
+			manager.getTransaction().commit();
+			
+			
+			
+			
+			System.out.println("Working with JPA!!");
+			}
+	
+}

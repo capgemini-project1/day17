@@ -1,0 +1,53 @@
+package introday4;
+import java.util.Scanner;
+
+public class Stringformatdemo2 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		 //String EmployeeKey = "Employee Detaails";
+		 System.out.println("enter the Employee Details");
+		 
+		String firstNameKey="First Name";
+		System.out.println("enter the First Name");
+		 String firstNameValue=scanner.nextLine();
+		 String lastNameKey = "Last Name";
+		 System.out.println("enter the Last Name");
+		 String lastNameValue=scanner.nextLine();
+		 String CandidateKey = "candidate Id";
+		 System.out.println("enter the Candidate Id");
+		 String CandidateValue =scanner.nextLine();
+		 String MobileKey="Mobile Number";
+		 System.out.println("enter the Mobile Number");
+		 String MobileValue = scanner.nextLine();
+		 
+		String formattedFirstNameKey = String.format("|%-25s",firstNameKey);
+		String formattedFirstNameVal = String.format("%-25.25s|", firstNameValue);
+		 
+		String formattedLastNameKey = String.format("|%-25s",lastNameKey);
+		String formattedlastNameVal = String.format("%-25.25s|", lastNameValue);
+		String formattedCandidateKey = String.format("|%-25s",CandidateKey);
+		String formattedCandidateValue = String.format("%-25.25s|",CandidateValue);
+		String formattedMobileKey = String.format("%-25.25s|",MobileKey);
+		String formattedMobileValue= String.format("%-25.25s|",MobileValue);
+		
+		
+		
+		
+		
+		 String dash = "----------------------|---------------------";
+		 System.out.println(String.format("%-50s",dash));
+		 System.out.println(formattedFirstNameKey + formattedFirstNameVal);
+		 System.out.println(String.format("%-50s",dash));
+		 System.out.println(formattedLastNameKey + formattedlastNameVal);
+		 System.out.println(String.format("%-50s",dash));
+		 System.out.println(formattedCandidateKey + formattedCandidateValue);
+		 System.out.println(String.format("%-50s",dash));
+		 System.out.println(formattedMobileKey + formattedMobileValue);
+		 System.out.println(String.format("%-50s",dash));
+		 
+		
+		
+	}
+
+}

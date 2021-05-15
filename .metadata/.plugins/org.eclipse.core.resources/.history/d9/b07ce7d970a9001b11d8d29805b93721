@@ -1,0 +1,24 @@
+package Day14Demo2jpa;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		// Lil Unfriendly
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("myjpa");
+		EntityManager em = factory.createEntityManager();
+		
+		// Creating Object  :: dbinfo
+		Employee employee =new Employee(1, "sunil", "sunil87@gmail.com", "77290", 20000);
+		em.getTransaction().begin();
+		em.persist(employee); // add the record into database
+		em.getTransaction().commit();
+		
+		System.out.println("Record Added!!");
+	}
+
+
+}

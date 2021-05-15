@@ -1,0 +1,14 @@
+package demoOfSingtonpattern;
+
+public class SpringDemo {
+public static void main(String[] args) {
+	     sunil();
+}
+
+   public static void sunil() {
+       DBUtil obj1 = DBUtil.method1();
+       System.out.println(obj1);
+       DBUtil obj2 = DBUtil.method1();
+       System.out.println(obj2);
+}
+}

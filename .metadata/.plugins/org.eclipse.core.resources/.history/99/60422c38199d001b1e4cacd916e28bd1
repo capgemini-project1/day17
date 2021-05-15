@@ -1,0 +1,14 @@
+package introday4;
+import java.util.Scanner;
+
+public class Stringformatdemo2 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		//String firstnNameKey="firstname";
+		System.out.println("enter the firstname");
+		 String firsstname=scanner.nextLine();
+		//String 
+	}
+
+}

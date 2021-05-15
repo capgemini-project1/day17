@@ -1,0 +1,24 @@
+package introday4;
+import java.time.LocalDate;
+import java.util.Scanner;
+import java.time.format.DateTimeFormatter;
+
+
+public class Dateformmaterdemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter the :dd-mm-yyy");
+		 String str = scanner.next();
+		 System.out.println(str);
+		LocalDate date  = LocalDate.now();
+		System.out.println(date);
+		DateTimeFormatter dts = DateTimeFormatter.ofPattern("dd-mm-yyyy");
+		System.out.println(dts);
+		
+		scanner.close();
+
+	}
+
+}

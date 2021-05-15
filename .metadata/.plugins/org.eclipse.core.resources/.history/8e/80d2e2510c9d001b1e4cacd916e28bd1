@@ -1,0 +1,14 @@
+package introday4;
+import java.util.Scanner;
+public class AdditionScannerdemo {
+	int n1;
+	public static void main(String[] args) {
+		
+	Scanner scanner =  new Scanner(System.in);
+	 System.out.println("enter the value of n1:");
+	  int n1 = scanner.nextLine();
+	}
+	 
+	
+
+}

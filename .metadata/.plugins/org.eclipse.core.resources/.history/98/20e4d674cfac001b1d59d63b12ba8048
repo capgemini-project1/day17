@@ -1,0 +1,14 @@
+package demoOfSingtonpattern;
+
+public class DBUtil {
+    	 // private static DBUtil object = null;
+
+    		// private ::  special member :: constructor
+    		private DBUtil() {}
+
+    		public static DBUtil method2() {
+    			//if(object == null) {
+    				//object = new DBUtil();
+    			return obj;	  
+      }
+}

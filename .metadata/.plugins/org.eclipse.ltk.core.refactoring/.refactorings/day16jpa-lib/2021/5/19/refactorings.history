@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;day16jpa.main&apos; to &apos;Main&apos;&#x0D;&#x0A;- Original project: &apos;day16jpa-lib&apos;&#x0D;&#x0A;- Original element: &apos;day16jpa.main&apos;&#x0D;&#x0A;- Renamed element: &apos;day16jpa.Main&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;day16jpa{main.java[main" matchStrategy="1" name="Main" qualified="false" references="true" similarDeclarations="false" stamp="1620031282839" textual="false" version="1.0"/>
+</session>
